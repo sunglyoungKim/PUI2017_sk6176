@@ -6,7 +6,7 @@ make a global path and alias to change the directory
 
 local bashrc file
 
-PUI2017_sk6176/HW1_sk6176/screenshots/local_and_virtual.png
+![Alt text](/PUI2017_sk6176/HW1_sk6176/screenshots/local_and_virtual.png?raw=true "Optional Title")
 
 pwd img file
 
