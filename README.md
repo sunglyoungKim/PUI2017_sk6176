@@ -10,4 +10,4 @@ local bashrc file
 
 pwd img file
 
-PUI2017_sk6176/HW1_sk6176/screenshots/pwd_pui2017_pwd.png
+![Alt text](https://github.com/sunglyoungKim/PUI2017_sk6176/blob/master/HW1_sk6176/screenshots/pwd_pui2017_pwd.png)
