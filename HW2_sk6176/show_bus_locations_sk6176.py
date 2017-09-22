@@ -20,7 +20,7 @@ pl.rc('font', size=15)
 key = sys.argv[1]
 busnumber = sys.argv[2]
 
-print ("Bus line is ", busnumber)
+print ("Selcted bus line is ", busnumber)
 
 #url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=71ea6d0f-db19-4f94-a6a6-4f0bf52ad31a&VehicleMonitoringDetailLevel=calls&LineRef=" +busnumber
 url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" +key+ "&VehicleMonitoringDetailLevel=calls&LineRef=" +busnumber
@@ -36,11 +36,11 @@ bus_info = MTABUS['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['Ve
 tb = len(bus_info)
 
 
-print ("Total number of", sys.argv[2],": ", tb)
+print ("Total number of running", sys.argv[2],": ", tb)
 
 for i in range(tb):
   latitude =  MTABUS['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
   longitude = MTABUS['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-  print ("Bus" ,i, "is at latitude ", latitude, "and at longitude ", longitude )
+  print ("Bus" ,i, "is latitude at", latitude, "and longitude at", longitude )
 
 
