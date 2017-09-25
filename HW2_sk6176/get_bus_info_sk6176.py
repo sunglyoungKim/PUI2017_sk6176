@@ -17,6 +17,7 @@ pl.rc('font', size=15)
 key = sys.argv[1]
 busnumber = sys.argv[2]
 
+
 # url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=71ea6d0f-db19-4f94-a6a6-4f0bf52ad31a&VehicleMonitoringDetailLevel=calls&LineRef=B52"
 #url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?" + "key=71ea6d0f-db19-4f94-a6a6-4f0bf52ad31a&VehicleMonitoringDetailLevel=calls&LineRef=B52" 
 url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" +key+ "&VehicleMonitoringDetailLevel=calls&LineRef=" +busnumber
@@ -30,9 +31,12 @@ MTABUS = json.loads(MTABUS)
 businfo = (MTABUS['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])
 
 # total number of activity nubses
-tb = len(businfo)
+tb = int(len(businfo))
 
-print ("Latitude, Longitude, Stop, Name, Stop Status")
+print ("Latitude, Longitude, Stop Name, Stop Status")
+
+fout = open(busnumber+".csv","w")
+fout.write("Latitue,Longitude,Stop Name,Stop Status\n")
 
 for i in range(tb):
     bus_info = MTABUS['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][i]['MonitoredVehicleJourney']['MonitoredCall']
@@ -41,6 +45,10 @@ for i in range(tb):
     stop = businfo[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName']
     where = businfo[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance']
     print (latitude,",", longitude,",", stop,",", where) 
-    row = latitude + "," + longitude +"," + stop + "," + where + "\n"
-    csv.write(row)
-    
+    fout.write(str(latitude)+","+ str(longitude)+","+stop+","+where+'\n')
+
+
+
+
+
+
