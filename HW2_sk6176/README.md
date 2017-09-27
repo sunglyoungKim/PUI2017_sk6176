@@ -42,17 +42,18 @@ Latitude, Longitude, Stop Name, Stop Status
 40.693515 , -73.987235 , JAY ST/MYRTLE PLZ , approaching
 40.695333 , -73.94959 , MYRTLE AV/NOSTRAND AV , < 1 stop away
 
-HW2_3_sk6176.ipynb
+	HW2_3_sk6176.ipynb
 
 This script grab Daily Report of Homeless Shelter in NYC.
 
 The data set will be remain only two numerical columns and it will scatter plot
 
 
-Extra_HW_2.ipynb
+	Extra_HW_2.ipynb
 
 This script also using the same data set but
 
-left Date of Census and Total Individuals in Families with Children in Shelter columns
+Date of Census and Total Individuals in Families with Children in Shelter columns are chosen to plot the data set
+
 The Date of Census will be replace to panda format of date and 
 Plot Total Individuals in Families with Children in shelter VS Date in Scatter
