@@ -25,20 +25,20 @@ Experimemtal setup: measure IQ of children at ages 1, 2, 3, and 4 years of age.
 Sampe of 1,2,3, and 4 years of age children 
 
 
+
 How much significant percentage of pregnant women who is smoking is delivered defected babies compare to preganat women who is not smoking  
 
 H0: Mean IQ scoress for children whoese mothers smoke ( 10 or more cigarettes a day) during pregnancy are the same as mean for those whose mothers do not smoke.
 
-H1: Mean IQ scores for children whose mother doesn smoke.
+H1: Mean IQ scores for children whose mother smoke 1- or more cigarettes a day during pregnancy are statistically indistrngushale from mean for those whose mothers do not somke.
 
 
 
 
 Contribute to the incidence of diabetes Food deserts are defined as parts of the country vapid of fresh fruit, vegetables, and other healthful whole foods, usually found in impoverished areas. This is largely due to a lack of grocery stores, farmers' markets, and healthy food providers.
 
-
-
-
+H0: there is no spatial correlation between the prevalence of diabetes and the distribution of food desert
+H1: there is a higher incidence of diabetes in proximity of food deserts/.
 
 
 This is not a lab experiment, but you have data the incidence of diabetes for the US population.
