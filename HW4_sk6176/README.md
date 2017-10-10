@@ -9,3 +9,5 @@ Correlation	| 1, Ranks of values | ordinal | 1, did Self Affirmation or no| cate
   |||||||||
 Logistic Regression	| 1, Ranks of values | ordinal | 1, did Self Affirmation or no| categorical | 1, age | continuous (could also be categoridcal) | 	Do participants in self-affirmation rak  value significantly higher than control group | Ranks test groups <= Ranks control group | 0.05 | [Relation of pooled logistic regression to time dependent cox regression analysis: The framingham heart study](http://onlinelibrary.wiley.com/doi/10.1002/sim.4780091214/full) |
   |||||||||
+
+Assignment 3 (
