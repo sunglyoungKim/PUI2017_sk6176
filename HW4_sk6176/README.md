@@ -1,3 +1,7 @@
+Assignment 1
+
+checked cm4692's citibike_HW3 H_0 and data set.
+
 
 Assignment 2 (by myself)
 
@@ -10,4 +14,19 @@ Correlation	| 1, Ranks of values | dichotomous | 1, | continuous | 0  |  | 	The 
 Logistic Regression	| 1+, Ranks of values | categorical | 1, | dichotomous | 0 | N/A | 	A standard analysis of the Framingham Heart Study data is a generalized person-years approach in which risk factors or covariates are measured every two years with a follow-up between these measurement times to observe the occurrence of events such as cardiovascular disease. | person-years vs the Framingham Heart Study data doesn't have strong correlation | 0.05 | [Relation of pooled logistic regression to time dependent cox regression analysis: The framingham heart study](http://onlinelibrary.wiley.com/doi/10.1002/sim.4780091214/full) |
   |||||||||
 
-Assignment 3 (
+Assignment 3  
+
+ Reproduce the analysis of the Hard to Employ program in NY:
+
+Reproduce the analysis of the Hard to Employ programs for NY. You may want to read the relevant portion of the study to make sure you are not just workign mechanically (Chapter 2 of the original document).
+
+Reproduce the results in cell 2 of Table 2.1 (Ever employed in a CEO transitional job), and cell 10 (Convicted of a felony). Fill in the cells of the scheleton notebook as you are asked to.
+
+Turn in your version of the python notebook in the HW4_<netID> directory
+
+Assignment 4 (Prince, Matt, Shara.. etc)
+Use the following are 3 tests to assess correlation between 2 samples of citibike data:
+
+Pearson’s test
+Spearman’s test
+K-S test
