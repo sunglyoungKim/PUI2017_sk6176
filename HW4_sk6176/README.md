@@ -14,7 +14,7 @@ Correlation	| 1, Ranks of values | dichotomous | 1, | continuous | 0  |  | 	The 
 Logistic Regression	| 1+, Ranks of values | categorical | 1, | dichotomous | 0 | N/A | 	A standard analysis of the Framingham Heart Study data is a generalized person-years approach in which risk factors or covariates are measured every two years with a follow-up between these measurement times to observe the occurrence of events such as cardiovascular disease. | person-years vs the Framingham Heart Study data doesn't have strong correlation | 0.05 | [Relation of pooled logistic regression to time dependent cox regression analysis: The framingham heart study](http://onlinelibrary.wiley.com/doi/10.1002/sim.4780091214/full) |
   |||||||||
 
-Assignment 3  
+Assignment 3  (Matt, etc)
 
  Reproduce the analysis of the Hard to Employ program in NY:
 
