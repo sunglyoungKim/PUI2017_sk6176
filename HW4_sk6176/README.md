@@ -7,7 +7,7 @@ T-test	| 1 | dichotomous | 1, | continuous | 0,  |   DNA microarrays of gene exp
   |||||||||
 Correlation	| 1, Ranks of values | dichotomous | 1, | continuous | 0  |  | 	The testing of saliva or oral fluid at the roadside could be a powerful tool to detect drivers under the influence of drugs  | saliva or oral fluid doesn't correlation to dui | 0.05 | [Screening for Drugs of Abuse in Oral Fluid—Correlation of Analysis Results with Serum in Forensic Cases]|https://academic.oup.com/jat/article/29/1/22/735261/Screening-for-Drugs-of-Abuse-in-Oral-Fluid
   |||||||||
-Logistic Regression	| 1, Ranks of values | ordinal | 1, did Self Affirmation or no| categorical | 1, age | continuous (could also be categoridcal) | 	Do participants in self-affirmation rak  value significantly higher than control group | Ranks test groups <= Ranks control group | 0.05 | [Relation of pooled logistic regression to time dependent cox regression analysis: The framingham heart study](http://onlinelibrary.wiley.com/doi/10.1002/sim.4780091214/full) |
+Logistic Regression	| 1+, Ranks of values | categorical | 1, | dichotomous | 0 | N/A | 	A standard analysis of the Framingham Heart Study data is a generalized person-years approach in which risk factors or covariates are measured every two years with a follow-up between these measurement times to observe the occurrence of events such as cardiovascular disease. | person-years vs the Framingham Heart Study data doesn't have strong correlation | 0.05 | [Relation of pooled logistic regression to time dependent cox regression analysis: The framingham heart study](http://onlinelibrary.wiley.com/doi/10.1002/sim.4780091214/full) |
   |||||||||
 
 Assignment 3 (
