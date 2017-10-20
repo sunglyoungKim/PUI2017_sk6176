@@ -21,13 +21,17 @@ Run AD or KS
 
 find the best fit values for the model parameters
 
-Assignment 2: Compare Tests for Goodness of fit
-
-Test whether a Gaussian model for  age distribution of citibike drivers is a sensible model, or if you can find a better fit
+Assignment 2: Compare Tests for Goodness of fit (Prince)
 
 Use two of  KS, AD, KL, chisq. Test at least 2 distributions
 
 Grading:
 
 show the distributions, the models, clearly state the H_0
+
+Assignment 3: (Prince, Matt, Chritian)
+
+Analysis mass shooting vs gdp, mass shooting vs fire arm per person
+
+and run regression model and influnce_model
 
