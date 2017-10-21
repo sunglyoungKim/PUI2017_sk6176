@@ -1,14 +1,37 @@
-# PUI2017_sk6176
+This is HW5
 
-I have created a PUI2017 directory at my local machine
-make a global path and alias to change the directory
+assignment 1 (do Z test)
+
+Generate N samples from a distribution but not Gaussian.
+
+do Z test
 
 
-local bashrc file
+Grading:
 
-![Alt text](https://github.com/sunglyoungKim/PUI2017_sk6176/blob/master/HW1_sk6176/screenshots/local_and_virtual.png)
+plot original distribution
 
-pwd img file
+plot at least one of the samples
 
-![Alt text](https://github.com/sunglyoungKim/PUI2017_sk6176/blob/master/HW1_sk6176/screenshots/pwd_pui2017_pwd.png)
+plot the distribution of Z statistics
+
+fit the Z-statistics with a guassian model
+
+Run AD or KS
+
+find the best fit values for the model parameters
+
+Assignment 2: Compare Tests for Goodness of fit (Prince)
+
+Use two of  KS, AD, KL, chisq. Test at least 2 distributions
+
+Grading:
+
+show the distributions, the models, clearly state the H_0
+
+Assignment 3: (Prince, Matt, Chritian)
+
+Analysis mass shooting vs gdp, mass shooting vs fire arm per person
+
+and run regression model and influnce_model
 
