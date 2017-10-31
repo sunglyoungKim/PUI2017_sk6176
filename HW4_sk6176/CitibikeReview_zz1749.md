@@ -18,3 +18,5 @@
 # $SE = \sqrt{ p  ( 1 - p )  (\frac{1}{n_0} + \frac{1}{n_1}) }$
 
 # Thank you, wish this could help you! Zhiao
+
+# FBB good, this should be very helpful to the original writer
