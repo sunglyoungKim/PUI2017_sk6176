@@ -1,3 +1,8 @@
+Git repo tracking has been lost and rolled back with T.A
+It is recovered on Nov 10th 2017
+
+Thank you
+
 This is HW6 (Working with Prince, Christine, Matt, and etc..)
 
 It shows Manhattan Building  Energy Consumption VS Number of Units in a Building
