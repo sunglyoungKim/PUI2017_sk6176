@@ -4,6 +4,4 @@ each transperated red dot is WIFI location and darker means more than one WIFI s
 
 Thank you 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
-PUI2017_sk6176/HW8_sk6176/Map.png
+![Map](https://raw.githubusercontent.com/sunglyoungKim/PUI2017_sk6176/master/HW8_sk6176/Map.png)
